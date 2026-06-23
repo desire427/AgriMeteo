@@ -1,5 +1,5 @@
 // Configuration des constantes
-export const CLE_API = '0fdba4360528878fcc5f4e462e26a40c';
+export const CLE_API = import.meta.env.VITE_OPENWEATHER_API_KEY;
 export const URL_API_BASE = 'https://api.openweathermap.org/data/2.5';
 
 // Coordonnées des 14 régions du Sénégal
